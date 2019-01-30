@@ -4,6 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <link href="css/styles.css" rel="stylesheet">
 <div class="bg"></div>
 <div class="topnav" id="myTopnav">
@@ -12,19 +13,29 @@
   <a href="About.html">About</a>
   <a href="contact.html">Contact</a>
   <div class="topnav-right">
-  <button onclick="document.getElementById('login').style.display='block'" style="width:auto;">login</button>
-  <button onclick="document.getElementById('signup').style.display='block'" style="width:auto;">Sign Up</button>
+  <button onclick="openlogin()"><span class="fa fa-sign-in"></span> login</button>
+  <button onclick="opensignup()"">Sign Up</button>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
 </div>
 </div>
 <body>
+    <div class="row">
+     <div class="centered">
+    <p>WELCOME TO POLITICO</p>
+     </div>
+<div class="clearfix"></div>
 
+
+    </div>
+        
   
         <div id="login" class="modal">
           
           <form class="modal-content animate" action="#">
             <div class="imgcontainer">
               <span onclick="document.getElementById('login').style.display='none'" class="close" title="Close Modal">&times;</span>
-              <img src="img_avatar2.png" alt="Avatar" class="avatar">
+              <img src="img/background.jpg" alt="Avatar" class="avatar">
             </div>
         
             <div class="container">
@@ -79,46 +90,46 @@
           </div>
         </form>
       </div>
-      
-       
-    <script>
-         function myFunction() {
-       var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-       x.className += " responsive";} 
-       else {
-             x.className = "topnav";
-            }
-   }
-// Get the modal
-var modal = document.getElementById('modal');
-
-// Get the button that opens the modal
-var btn = document.getElementById("btnlogin");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-
-</script>
-
-
+    
 
 </body>
-</html>
+
+<footer class="footer">
+        <a href="#"><i class="fa fa-facebook-official fa-lg"></i></a>
+        <a href="#"><i class="fa fa-pinterest-p fa-lg"></i></a>
+        <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+        <a href="#"><i class="fa fa-flickr fa-lg"></i></a>
+        <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
+        <p >
+        Powered by <a href="#" target="_blank">Webmaster solution</a>
+        </p>
+                 
+<script>
+
+            function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+            }
+
+                function openlogin() {
+                document.getElementById("login").style.display = "block";
+                }
+
+                function opensignup() {
+                document.getElementById("signup").style.display = "block";
+                }
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+            if (event.target == modal) {
+            modal.style.display = "none";
+            }
+            }
+
+            </script>
+
+      </html>
