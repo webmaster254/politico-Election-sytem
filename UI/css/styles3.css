@@ -59,7 +59,7 @@ h1{
     margin-bottom: 20px;
 }
 
-.signupbox input[type="text"], input[type="password"]
+.signupbox input[type="text"],input[type="text"],input[type="text"] input[type="password"]
 {
     border: none;
     border-bottom: 1px solid #fff;
@@ -74,6 +74,17 @@ h1{
     border: none;
     outline: none;
     height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.reset-password input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    width:100%;
     background: #fb2525;
     color: #fff;
     font-size: 18px;
