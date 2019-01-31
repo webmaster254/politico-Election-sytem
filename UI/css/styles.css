@@ -1,6 +1,6 @@
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color:#512DA8;
     overflow: hidden;
 
   }
@@ -47,19 +47,36 @@
   .topnav .icon {
     display: none;
   }
+  body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
   
-  .content { 
+  .body-content { 
     width: 100%; 
   }
   .row {  
     display: flex;
-background-color:#888;
+    background: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    color: floralwhite;
+   overflow: hidden;
     height:450px;
-    text-align: center;
     
+    text-align: center;
     
   
   }
+  .row img{
+    width:100%;
+
+}
+
   p{
       text-align: center;
       font-size: 20px;
@@ -68,11 +85,11 @@ background-color:#888;
     display: flex;
    
   }
-  /* Style the body */
-body {
-    font-family: Arial;
-    margin: 0;
-}
+
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+  }
 
  /* Full-width input fields */
 input[type=text], input[type=password] {
@@ -122,7 +139,8 @@ input[type=text], input[type=password] {
   
   
   .container {
-    padding: 16px;
+    padding: 0px;
+    
   }
   
   span.psw {
@@ -131,8 +149,7 @@ input[type=text], input[type=password] {
   }
   
   /* The Modal (background) */
-  .modal {
-    display: none; /* Hidden by default */
+  .login {
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     left: 0;
@@ -145,14 +162,7 @@ input[type=text], input[type=password] {
     padding-top: 60px;
   }
   
-  /* Modal Content/Box */
-  .modal-content {
-    background-color: #fefefe;
-    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-    border: 1px solid #888;
-    width: 50%; /* Could be more or less, depending on screen size */
-  }
-  
+ 
   /* The Close Button (x) */
   .close {
     position: absolute;
@@ -181,6 +191,7 @@ input[type=text], input[type=password] {
     position: absolute;
     top: 50%;
     left: 50%;
+    overflow: hidden;
     transform: translate(-50%, -50%);
   }
   /* Clear floats */
@@ -195,6 +206,7 @@ input[type=text], input[type=password] {
     -webkit-animation: animatezoom 0.6s;
     animation: animatezoom 0.6s
   }
+ 
   
   @-webkit-keyframes animatezoom {
     from {-webkit-transform: scale(0)} 
