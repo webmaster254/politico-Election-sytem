@@ -23,3 +23,6 @@
             modal.style.display = "none";
             }
             }
+            function check(form)/*function to check userid & password*/
+{
+ 
