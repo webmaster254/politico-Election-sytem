@@ -8,6 +8,7 @@ body{
 }
 
 .loginbox{
+    
     width: 320px;
     height: 420px;
     background:black;
@@ -18,6 +19,7 @@ body{
     transform: translate(-50%,-50%);
     box-sizing: border-box;
     padding: 70px 30px;
+   
 }
 
 .avatar{
@@ -63,6 +65,16 @@ h1{
     outline: none;
     height: 40px;
     background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginbox input[type="reset"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #9b9898;
     color: #fff;
     font-size: 18px;
     border-radius: 20px;
