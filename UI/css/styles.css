@@ -57,7 +57,7 @@
 body{
   margin: 0;
   padding: 0;
-  background:#512DA8;
+  
   background-size: cover;
   background-position: center;
   font-family: sans-serif;
@@ -299,8 +299,9 @@ span.psw {
   width: 80rem;
     float: right;
     background: floralwhite;
-    display: flex;
-    height:400px;
+   overflow:auto;
+    height:500px;
+ 
 }
 .profile-body{
   padding: .5rem;
@@ -330,7 +331,34 @@ th, td {
 tr:nth-child(even) {
   background-color: #f2f2f2
 }
+td, th {
+  border: solid 1px black;
+  } 
+  tr {
+    border-bottom: solid 1px black;
+    } 
 
+    .myForm {
+      display: flex;
+      flex-direction: column;
+      background-color: beige;
+      border-radius: 3px;
+      padding: 1em;
+    }
+    .column {
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+    }
+    .column h2{
+      text-align: center;
+
+    }
+    header{
+      text-align: center;
+      background: #512DA8;
+      color: floralwhite;
+    }
 
 
 /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
