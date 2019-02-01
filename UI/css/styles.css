@@ -305,6 +305,9 @@ span.psw {
   padding: .5rem;
     color: teal;
 }
+.profile-sidebar button{
+  width:200px;
+}
 
 .column {
   display: flex;
