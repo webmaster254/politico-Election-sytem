@@ -57,7 +57,7 @@
 body{
   margin: 0;
   padding: 0;
-  background:#512DA8;
+
   background-size: cover;
   background-position: center;
   font-family: sans-serif;
@@ -284,6 +284,9 @@ span.psw {
   padding-top: .1rem;
   color:floralwhite;
 }
+.profile-sidebar button{
+  width:200px;
+}
 .profile-sidebar ul>  li{
   text-decoration: none;
   margin: 1.5rem;
@@ -386,6 +389,71 @@ th, td {
 tr:nth-child(even) {
   background-color: #f2f2f2
 }
+ ft-politician-voted-163551990
+tr {
+  border-bottom: solid 1px black;
+  } 
+  td, th {
+    border: solid 1px black;
+    } 
+
+.vote-from{
+  position: center;
+}
+
+
+.myForm {
+  display: flex;
+  flex-direction: column;
+  background-color: beige;
+  border-radius: 3px;
+  padding: 1em;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+  }
+  .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+.dropdown {
+    position: relative;
+    display: block;
+}
+.dropdown li{
+  position: relative;
+  display: block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+=======
 tr{
   border: #000;
 }
@@ -512,6 +580,8 @@ th, td {
   text-align: left;
 }
 
+
+.show {display:block;}
 /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
