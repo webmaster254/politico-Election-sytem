@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+        <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="css/styles.css" rel="stylesheet">
+<title>POLITICO ONLINE VOTING SYSTEM</title>
+</head>
+
+<header>
+<div class="topnav" id="myTopnav">
+        <div class="logo">
+                <a href="index.html">POLITICO</a>
+            </div>
+    <div class="topnav-right">
+    <a href="index.html" class="active"><i class="fa fa-fw fa-home"></i>Home</a>
+    <a href="About.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="index.html" class="fa fa-sign-out"> log out</a>
+    
+                    </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i></a>
+</div>
+</header>
+
+<body>
+                <section id="profile-section">
+                                
+                        <div class="profile-part">
+                                        
+                                <div class="profile-sidebar">
+                                         
+                                    <h4><b>User Dashboard</b></h4>
+                                    
+                                    <ul>
+ 
+                                      <div class="dropdown">
+                                        <li><button onclick="myFunction()" class="dropbtn" href="#">political parties<i class="fa fa-caret-down"></i></button></li>
+                                        
+                                        <div id="myDropdown" class="dropdown-content">
+                                                 
+                                                 <a href="view-party.html">view Political party</a>
+                                               </div>
+                                              
+                                               <div class="dropdown">
+                                                         <li><button onclick="myFunction()" class="dropbtn" href="#">Government Offices<i class="fa fa-caret-down"></i></button></li>
+                                                         
+                                                         <div id="myDropdown" class="dropdown-content">
+                                                                  
+                                                                  <a href="view-party.html">view office</a>
+                                                                </div>
+                                        <li><a><button class="voter" href="vote-one.html">vote</button></a></li>
+                                        <li><a><button class="profile" href="profile.html">profile setting</button></a></li>
+                                        <li><a><button class="logoutbtn" href="index.html">Log out</button></a></li>
+ 
+                                        
+                                        
+                        
+                                    </ul>
+                                 </div>
+                               
+                                <div class="profile-main-section">
+                                    <div class="new-party">
+                                        <form action="#">
+                                                <div class="container">
+                                                  <h1>Register As A candidate</h1>
+                    
+                                              
+                                                  <label for="party-name"><b>Full Name</b></label>
+                                                  <input type="text" placeholder="Enter Full name" name="partyname" required>
+                                              
+                                                  <label for="official"><b>Poltical Party</b></label>
+                                                  <input type="text" placeholder="Enter your political party" name="official" required>
+                                              
+              
+                                                  <label for="party-logo"><b>Office Interested</b></label>
+                                                  <select>
+                                                        <option value="Presidential">Presidential</option>
+                                                        <option value="Governance">Governance</option>
+                                                        <option value="Gubernatorial">Gubernatorial</option>
+                                                        <option value="Senatorial">Senatorial</option>
+                                                      </select></br>
+                                                    </br>
+                                                    <label for="subject">Your Manifesto</label></br>
+                                                    <textarea id="subject" name="subject" placeholder="Write something.." ></textarea></br>
+                                                  <button type="submit" class="registerbtn">submit</button>
+                                                </div>
+                                              
+                                              </form>
+                                       </div>
+                                       </div>   
+                                        
+                                </div>
+                             </div>
+                           </section>
+    </body>
+        
+  
+       
+
+ 
+
+ <script src="js/scripts.js"></script>
+      </html>
