@@ -300,7 +300,7 @@ td, th {
   height: 400px;
   background-color: rgb(56, 14, 155);
   float: left;
-    flex: 3;
+    
 }
 .profile-sidebar h4{
   text-align: center;
@@ -317,11 +317,13 @@ td, th {
     font-size: 1.2rem;
     text-decoration: none;
 }
-
+.profile-sidebar button{
+  width:200px;
+}
 .profile-main-section{
   width: 90rem;
   overflow:auto;
-  display:flex;
+  
   flex-direction: row;
     float: right;
     background: floralwhite;
@@ -369,6 +371,9 @@ input {
     margin: .4rem;
 }
 
+h2{
+  text-align: center;
+}
 
 
 .myForm {
@@ -412,6 +417,62 @@ input {
 .selection{
   display:block;
 }
+
+.myForm {
+  display: flex;
+  flex-direction: column;
+  background-color: beige;
+  border-radius: 3px;
+  padding: 1em;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+  }
+  .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+.dropdown {
+    position: relative;
+    display: block;
+}
+.dropdown li{
+  position: relative;
+  display: block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+
 
 /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
 @media screen and (max-height: 450px) {
