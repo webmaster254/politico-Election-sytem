@@ -723,7 +723,10 @@ th, td {
 .profile li{
   display: block;
 }
-
+textarea{
+  height:150px;
+  width:200px;
+}
 
 
 .show {display:block;}
