@@ -284,22 +284,28 @@ span.psw {
   padding-top: .1rem;
   color:floralwhite;
 }
-.profile-sidebar button{
-  width:200px;
-}
+
 .profile-sidebar ul>  li{
   text-decoration: none;
   margin: 1.5rem;
   list-style: none;
+  font-size: 10px;
 }
 .profile-sidebar ul > li a{
   color: whitesmoke;
     font-size: 1.2rem;
     text-decoration: none;
 }
+
+
+
+
+
+
 .profile-sidebar button{
   width:200px;
 }
+
 .profile-main-section{
   width: 80rem;
     float: right;
@@ -315,11 +321,15 @@ span.psw {
   width:200px;
 }
 
+/* Dropdown Button */
+
+
 .column {
   display: flex;
   flex-direction: column;
   padding: 1em;
 }
+
 .dropbtn {
   background-color: #4CAF50;
   color: white;
@@ -327,6 +337,31 @@ span.psw {
   font-size: 16px;
   border: none;
   cursor: pointer;
+
+  
+
+}
+.dropdown li{
+  display: block;
+
+}
+.dropbtn{
+  width:200px;
+}
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+=======
 }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -453,7 +488,7 @@ tr {
 }
 
 .dropdown a:hover {background-color: #f1f1f1}
-=======
+
 tr{
   border: #000;
 }
@@ -492,15 +527,23 @@ tr{
 position: relative;
 display: block;
 }
+
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
+
+
   overflow: auto;
+
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
+
+
+/* Links inside the dropdown */
+
 
 .dropdown-content a {
   color: black;
@@ -508,6 +551,13 @@ display: block;
   text-decoration: none;
   display: block;
 }
+
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
 
 .dropdown a:hover {background-color: #f1f1f1}
 
@@ -579,6 +629,7 @@ th, td {
   padding: 10px;
   text-align: left;
 }
+
 
 
 .show {display:block;}
