@@ -33,19 +33,38 @@
                                         
                                <div class="profile-sidebar">
                                         <img src="avatar.png" class="avatar">
-                                   <h4><b>Admin Dashboard.</b></h4>
+                                   <h4><b>Admin Dashboard</b></h4>
                                    
                                    <ul>
-                                       <li><a href="#">political parties</a></li>
-                                       <li><a href="#">Government offices</a></li>
-                                       <li><a href="index.html">Log out</a></li>
+                                     <div class="dropdown">
+                                       <li><button onclick="myFunction()" class="dropbtn" href="#">political parties<i class="fa fa-caret-down"></i></button></li>
+                                       
+                                       <div class="dropdown-content">
+                                                <a href="create-party.html">Create political party</a>
+                                                <a href="edit-party.html">Edit Political party</a>
+                                                <a href="view-party.html">Delete Political party</a>
+                                                <a href="view-party.html">view Political party</a>
+                                              </div>
+                                             
+                                              <div class="dropdown">
+                                                        <li><button onclick="myFunction()" class="dropbtn" href="#">Government Offices<i class="fa fa-caret-down"></i></button></li>
+                                                        
+                                                        <div class="dropdown-content">
+                                                                 <a href="create-party.html">Create office</a>
+                                                                 <a href="edit-party.html">Edit office</a>
+                                                                 <a href="view-party.html">Delete office</a>
+                                                                 <a href="view-party.html">view office</a>
+                                                               </div>
+                                       <li><a><button class="logoutbtn" href="index.html">Log out</button></a></li>
                        
                                    </ul>
                                 </div>
                                
                                 <div class="profile-main-section">
                        
-                                
+                                <div class="admin">
+                                        <h2>WELCOME TO POLITICO ADMIN DASHBOARD</h2>
+                                </div>
                        
                                        </div>   
                                         
