@@ -54,10 +54,13 @@
 .topnav .icon {
   display: none;
 }
+h2{
+  text-align: center;
+}
 body{
   margin: 0;
   padding: 0;
-  background:#512DA8;
+
   background-size: cover;
   background-position: center;
   font-family: sans-serif;
@@ -147,6 +150,7 @@ button:hover {
 
 .container {
   padding: 16px;
+  overflow:auto;
 
   
 }
@@ -300,7 +304,8 @@ span.psw {
     float: right;
     background: floralwhite;
     display: flex;
-    height:400px;
+    height:500px;
+    overflow:auto;
 }
 .profile-body{
   padding: .5rem;
@@ -330,6 +335,22 @@ th, td {
 tr:nth-child(even) {
   background-color: #f2f2f2
 }
+td, th {
+  border-left: solid 1px black;
+  } 
+  tr {
+    border-bottom: solid 1px black;
+    } 
+    header{
+      background: #512DA8;
+      color: floralwhite;
+      text-align: center;
+    }
+    .column {
+      display: flex;
+      flex-direction: column;
+      padding: 1em;
+    }
 
 
 
