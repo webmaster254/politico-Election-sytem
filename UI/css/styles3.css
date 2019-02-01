@@ -73,6 +73,22 @@ h1{
     background: #ffc107;
     color: #000;
 }
+.loginbox input[type="reset"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #8d8b8b;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginbox input[type="reset"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
 .loginbox a{
     text-decoration: none;
     font-size: 12px;
