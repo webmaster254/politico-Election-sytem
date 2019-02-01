@@ -29,19 +29,34 @@
 <body>
                 <section id="profile-section">
                         <header>GOVERNMENT OFFICES</header>
-                             <div class="profile-part">
-                                       
-                               <div class="profile-sidebar">
-                                        <img src="avatar.png" class="avatar">
-                                   <h4><b>Admin Dashboard.</b></h4>
+                        <h1>Politico user Dashboard</h1>
+                        <div class="profile-part">
                                    
-                                   <ul>
-                                       
-                                       <li><a href="#">political parties</a></li>
-                                       <li><a href="#">Government offices</a></li>
-                                       <li><a href="index.html">Log out</a></li>
-                       
-                                   </ul>
+                          <div class="profile-sidebar">
+                                   
+                              <h4><b>user Dashboard</b></h4>
+                              
+                              <ul>
+                                <div class="dropdown">
+                                  <li><button onclick="myFunction()" class="dropbtn" href="#">political parties<i class="fa fa-caret-down"></i></button></li>
+                                  
+                                  <div id="myDropdown" class="dropdown-content">
+                                           
+                                           
+                                           <a href="view-party.html">view Political party</a>
+                                         </div>
+                                        
+                                         <div class="dropdown">
+                                                   <li><button onclick="myFunction()" class="dropbtn" href="#">Government Offices<i class="fa fa-caret-down"></i></button></li>
+                                                   
+                                                   <div id="myDropdown" class="dropdown-content">
+                                                            
+                                                           
+                                                            <a href="view-office.html">view office</a>
+                                                          </div>
+                                  <li><a><button class="logoutbtn" href="index.html">Profile setting</button></a></li>
+                                  <li><a><button class="logoutbtn" href="index.html">Log out</button></a></li>
+                              </ul>
                                 </div>
                                
                                 <div class="profile-main-section">
