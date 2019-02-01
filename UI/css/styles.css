@@ -279,6 +279,9 @@ span.psw {
   background-color: rgb(56, 14, 155);
   float: left;
 }
+.profile-sidebar button{
+  width:200px;
+}
 .profile-sidebar h4{
   text-align: center;
   padding-top: .1rem;
