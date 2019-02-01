@@ -294,6 +294,9 @@ span.psw {
     font-size: 1.2rem;
     text-decoration: none;
 }
+.profile-sidebar button{
+  width:200px;
+}
 
 .profile-main-section{
   width: 80rem;
