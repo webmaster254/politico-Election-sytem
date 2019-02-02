@@ -5,28 +5,21 @@ body{
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
-    
 }
 
-.loginbox{
-    
-    width: 320px;
-    height: 490px;
-    background:#4CAF50;
+.signupbox{
+    width: 500px;
+    height: 650px;
+    background:#512DA8;
     color: #fff;
     top: 50%;
     left: 50%;
-    
     position: absolute;
     transform: translate(-50%,-50%);
     box-sizing: border-box;
     padding: 70px 30px;
-   
 }
 
-.loginbox a{
-    color: floralwhite;
-}
 .avatar{
     width: 100px;
     height: 100px;
@@ -43,18 +36,18 @@ h1{
     font-size: 22px;
 }
 
-.loginbox p{
+.signupbox p{
     margin: 0;
     padding: 0;
     font-weight: bold;
 }
 
-.loginbox input{
+.signupbox input{
     width: 100%;
     margin-bottom: 20px;
 }
 
-.loginbox input[type="text"], input[type="password"]
+.signupbox input[type="text"],input[type="text"],input[type="number"],input[type="password"] input[type="password"]
 {
     border: none;
     border-bottom: 1px solid #fff;
@@ -64,62 +57,50 @@ h1{
     color: #fff;
     font-size: 16px;
 }
-.loginbox input[type="submit"]
+.signupbox input[type="submit"]
 {
     border: none;
     outline: none;
     height: 40px;
-    background: #512DA8;
+    background:#4CAF50;
     color: #fff;
     font-size: 18px;
     border-radius: 20px;
 }
-.loginbox input[type="reset"]
+.signupbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: rgb(247, 242, 242);
+}
+.signupbox input[type="reset"]
 {
     border: none;
     outline: none;
     height: 40px;
-    background: #9b9898;
+    background: #8d8b8b;
     color: #fff;
     font-size: 18px;
     border-radius: 20px;
 }
-.loginbox input[type="submit"]:hover
+.signupbox input[type="reset"]:hover
 {
     cursor: pointer;
     background: #ffc107;
     color: #000;
 }
-.loginbox input[type="reset"]
-{
-    border: none;
-    outline: none;
-    height: 40px;
-    background: #868282;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 20px;
-}
-.loginbox input[type="reset"]:hover
-{
-    cursor: pointer;
-    background: #ffc107;
-    color: #000;
-}
-.loginbox a{
+.signupbox a{
     text-decoration: none;
     font-size: 12px;
     line-height: 20px;
     color: darkgrey;
 }
 
-.loginbox a:hover
+.signupbox a:hover
 {
     color: #ffc107;
 }
-.loginbox a{
-    color:floralwhite;
-}
+
 
 
 
