@@ -22,8 +22,21 @@
   text-decoration: none;
   font-size: 17px;
   
+ 
   
-  
+}
+.btnvote{
+
+width:200px;
+height:50px;
+background:#4CAF50;
+display:block;
+text-align: center;
+font-size: 20px;
+color:floralwhite;
+text-decoration: none;
+padding-top: 3px;
+margin-bottom: 8px;
 }
 .avatar {
   vertical-align: middle;
@@ -31,6 +44,7 @@
   height: 50px;
   border-radius: 50%;
 }
+
 .logo{
     height: auto;
     width:40px;
@@ -310,6 +324,9 @@ span.psw {
     font-size: 1.2rem;
     text-decoration: none;
 }
+.profile-sidebar button{
+  width:200px;
+}
 
 
 
@@ -529,6 +546,55 @@ tr {
 }
 
 
+
+.column {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+}
+.dropdown li{
+position: relative;
+display: block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+
 .myForm {
   display: flex;
   flex-direction: column;
@@ -580,6 +646,7 @@ tr {
 }
 
 .dropdown a:hover {background-color: #f1f1f1}
+
 
 tr{
   border: #000;
@@ -742,6 +809,9 @@ textarea{
   height:150px;
   width:200px;
 }
+
+
+
 
 
 .show {display:block;}
