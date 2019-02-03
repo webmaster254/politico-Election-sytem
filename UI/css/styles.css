@@ -901,6 +901,7 @@ h1{
   text-decoration: none;
   padding-top: 3px;
   margin-bottom: 8px;
+
   }
 
   .card {
@@ -936,4 +937,5 @@ h1{
   
   button:hover, a:hover {
     opacity: 0.7;
+
   }
