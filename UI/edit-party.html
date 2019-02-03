@@ -29,10 +29,6 @@
 <body>
                 <section id="profile-section">
                                 
-
-                             <div class="profile-part">
-
-
                         <h1>Politico Admin Dashboard</h1>
                         <div class="profile-part">
                                    
@@ -51,8 +47,6 @@
                                            <a href="view-party.html">view Political party</a>
                                          </div>
                                         
-
-                                  
                                          <div class="dropdown">
                                                    <li><button onclick="myFunction()" class="dropbtn" href="#">Government Offices<i class="fa fa-caret-down"></i></button></li>
                                                    
@@ -62,44 +56,31 @@
                                                             <a href="view-party.html">Delete office</a>
                                                             <a href="view-party.html">view office</a>
                                                           </div>
-
-                                                          <div class="dropdown">
-                                                              <button onclick="myFunction()" class="dropbtn" >political parties<i class="fa fa-caret-down"></i></button>
-                                                               
-                                                               <div id="myDropdown" class="dropdown-content">
-                                                                        <a href="create-party.html">Create political party</a>
-                                                                        <a href="edit-party.html">Edit Political party</a>
-                                                                        <a href="view-party.html">Delete Political party</a>
-                                                                        <a href="view-party.html">view Political party</a>
-                                                                      </div>
-                                                                     
-                                                          <a class="btnvote" href="vote-one.html">Vote</a>
-                                                          <a class="btnvote" href="profile.html">profile</a>
-                                                              
+                                                          <li><a><button class="vote" href="vote-one.html">vote</button></a></li>
+                                  <li><a><button class="vote" href="profile.html">Profile setting</button></a></li>
+                                  <li><a><button class="logoutbtn" href="index.html">Log out</button></a></li>
                               </ul>
-</div>
-
-                
                                 </div>
-
                                
                                 <div class="profile-main-section">
                                     <div class="new-party">
                                         <form action="#">
                                                 <div class="container">
-                                                  <h1>Create New office</h1>
+                                                  <h1>Edit Party Details</h1>
                     
                                               
-                                                  <label for="party-name"><b>Office Name</b></label>
-                                                  <input type="text" placeholder="Enter Party Name" name="partyname" required>
+                                                  <label for="party-name"><b>Party Name</b></label>
+                                                  <input type="text" placeholder="Enter Party Name" name="partyname" value="TNA" required>
                                               
-                                                  <label for="official"><b>Office Official</b></label>
-                                                  <input type="text" placeholder="Enter official's name" name="official" required>
+                                                  <label for="official"><b>Party Official</b></label>
+                                                  <input type="text" placeholder="Enter official's name" name="official" value="James Kioko" required>
                                               
-              
-                                                  <label for="party-logo"><b>office logo</b></label>
+                                                  <label for="slogan"><b>Party Slogan</b></label>
+                                                  <input type="text" placeholder="slogan" name="slogan" value="Tuko pamoja" required>
+                                                  <hr>
+                                                  <label for="party-logo"><b>Party logo</b></label>
                                                   <input type="file" >
-                                                  <button type="submit" class="registerbtn">Create</button>
+                                                  <button type="submit" class="upatebtn">update</button>
                                                 </div>
                                               
                                               </form>
@@ -109,7 +90,12 @@
                                 </div>
                              </div>
                            </section>
+    
+        
   
+       
+
+ 
 
  <script src="js/scripts.js"></script>
       </html>
