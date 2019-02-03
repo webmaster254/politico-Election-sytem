@@ -861,24 +861,10 @@ h1{
   
   @-webkit-keyframes animatezoom {
     from {-webkit-transform: scale(0)} 
-    to {-webkit-transform: scale(1)}
-
-@keyframes animatezoom {
-  from {transform: scale(0)} 
-  to {transform: scale(1)}
-}
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-  span.psw {
-     display: block;
-     float: none;
-
+    to {-webkit-transform: scale(1)
+    }
   }
-  .cancelbtn {
-     width: 100%;
-  }
-}
+
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
@@ -918,8 +904,8 @@ h1{
   }
 
   .card {
-    
-    max-width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
     margin: auto;
     text-align: center;
   }
