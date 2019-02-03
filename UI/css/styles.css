@@ -22,8 +22,21 @@
   text-decoration: none;
   font-size: 17px;
   
+ 
   
-  
+}
+.btnvote{
+
+width:200px;
+height:50px;
+background:#4CAF50;
+display:block;
+text-align: center;
+font-size: 20px;
+color:floralwhite;
+text-decoration: none;
+padding-top: 3px;
+margin-bottom: 8px;
 }
 .avatar {
   vertical-align: middle;
@@ -31,6 +44,7 @@
   height: 50px;
   border-radius: 50%;
 }
+
 .logo{
     height: auto;
     width:40px;
