@@ -22,8 +22,21 @@
   text-decoration: none;
   font-size: 17px;
   
+ 
   
-  
+}
+.btnvote{
+
+width:200px;
+height:50px;
+background:#4CAF50;
+display:block;
+text-align: center;
+font-size: 20px;
+color:floralwhite;
+text-decoration: none;
+padding-top: 3px;
+margin-bottom: 8px;
 }
 .avatar {
   vertical-align: middle;
@@ -31,6 +44,7 @@
   height: 50px;
   border-radius: 50%;
 }
+
 .logo{
     height: auto;
     width:40px;
@@ -284,19 +298,27 @@ span.psw {
   padding-top: .1rem;
   color:floralwhite;
 }
-.profile-sidebar button{
-  width:200px;
-}
+
 .profile-sidebar ul>  li{
   text-decoration: none;
   margin: 1.5rem;
   list-style: none;
+  font-size: 10px;
 }
 .profile-sidebar ul > li a{
   color: whitesmoke;
     font-size: 1.2rem;
     text-decoration: none;
 }
+.profile-sidebar button{
+  width:200px;
+}
+
+
+
+
+
+
 .profile-sidebar button{
   width:200px;
 }
@@ -312,6 +334,85 @@ span.psw {
   padding: .5rem;
     color: teal;
 }
+.profile-sidebar button{
+  width:200px;
+}
+
+/* Dropdown Button */
+
+
+.column {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+
+  
+
+}
+.dropdown li{
+  display: block;
+
+}
+.dropbtn{
+  width:200px;
+}
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+}
+.dropdown li{
+position: relative;
+display: block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
 
 table {
   border-collapse: collapse;
@@ -321,6 +422,9 @@ table {
 }
 .party-table{
   overflow:auto;
+}
+.party-table h2{
+  text-align: center;
 }
 .editbtn{
   background: #4CAF50;
@@ -336,6 +440,7 @@ th, td {
 tr:nth-child(even) {
   background-color: #f2f2f2
 }
+ ft-politician-voted-163551990
 tr {
   border-bottom: solid 1px black;
   } 
@@ -448,6 +553,152 @@ display: block;
 }
 
 .dropdown a:hover {background-color: #f1f1f1}
+
+
+tr{
+  border: #000;
+}
+.myForm {
+  display: flex;
+  flex-direction: column;
+  background-color: beige;
+  border-radius: 3px;
+  padding: 1em;
+}
+
+
+.column {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+}
+.dropdown li{
+position: relative;
+display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+
+
+  overflow: auto;
+
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+/* Links inside the dropdown */
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+.column {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+}
+.dropdown li{
+position: relative;
+display: block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;
+}
+h2{
+  text-align:center;
+}
+
+.myForm {
+  display: flex;
+  flex-direction: column;
+  background-color: beige;
+  border-radius: 3px;
+  padding: 1em;
+}
+table {
+  border-collapse: collapse;
+  width:500px;
+}
+th, td {
+  border: 1px solid orange;
+  padding: 10px;
+  text-align: left;
+}
+
+
+
+
 
 
 .show {display:block;}
