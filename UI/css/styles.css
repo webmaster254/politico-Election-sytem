@@ -100,9 +100,25 @@ body{
   background-position: center;
   color: floralwhite;
  overflow: hidden;
-  height:450px;
-  
+  height:450px;}
+ 
+  .body-content { 
+    width: 100%; 
+  }
+  .row {  
+    display: flex;
+    background:rgb(131, 111, 175);
+    background-size: cover;
+    background-position: center;
+    color: floralwhite;
+   overflow: hidden;
+    height:450px;
+    
+    text-align: center;
+    
+
   text-align: center;
+
   
 
 }
