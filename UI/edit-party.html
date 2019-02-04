@@ -27,8 +27,7 @@
 </header>
 
 <body>
-
-      <section id="profile-section">
+                <section id="profile-section">
                                 
                         <h1>Politico Admin Dashboard</h1>
                         <div class="profile-part">
@@ -41,7 +40,7 @@
                                 <div class="dropdown">
                                   <li><button onclick="myFunction()" class="dropbtn" href="#">political parties<i class="fa fa-caret-down"></i></button></li>
                                   
-                                  <div class="dropdown-content">
+                                  <div id="myDropdown" class="dropdown-content">
                                            <a href="create-party.html">Create political party</a>
                                            <a href="edit-party.html">Edit Political party</a>
                                            <a href="view-party.html">Delete Political party</a>
@@ -51,39 +50,37 @@
                                          <div class="dropdown">
                                                    <li><button onclick="myFunction()" class="dropbtn" href="#">Government Offices<i class="fa fa-caret-down"></i></button></li>
                                                    
-                                                   <div class="dropdown-content">
+                                                   <div id="myDropdown" class="dropdown-content">
                                                             <a href="create-party.html">Create office</a>
                                                             <a href="edit-party.html">Edit office</a>
                                                             <a href="view-party.html">Delete office</a>
                                                             <a href="view-party.html">view office</a>
                                                           </div>
                                                           <a class="btnvote" href="vote-one.html">Vote</a>
-                                                          <a class="btnvote" href="profile.html">profile</a>
-                                                                  
+  <a class="btnvote" href="profile.html">profile</a>
+         
                               </ul>
                                 </div>
-
-
                                
                                 <div class="profile-main-section">
                                     <div class="new-party">
                                         <form action="#">
                                                 <div class="container">
-                                                  <h1>Register New Party</h1>
+                                                  <h1>Edit Party Details</h1>
                     
                                               
                                                   <label for="party-name"><b>Party Name</b></label>
-                                                  <input type="text" placeholder="Enter Party Name" name="partyname" required>
+                                                  <input type="text" placeholder="Enter Party Name" name="partyname" value="TNA" required>
                                               
                                                   <label for="official"><b>Party Official</b></label>
-                                                  <input type="text" placeholder="Enter official's name" name="official" required>
+                                                  <input type="text" placeholder="Enter official's name" name="official" value="James Kioko" required>
                                               
                                                   <label for="slogan"><b>Party Slogan</b></label>
-                                                  <input type="text" placeholder="slogan" name="slogan" required>
+                                                  <input type="text" placeholder="slogan" name="slogan" value="Tuko pamoja" required>
                                                   <hr>
                                                   <label for="party-logo"><b>Party logo</b></label>
                                                   <input type="file" >
-                                                  <button type="submit" class="registerbtn">Create</button>
+                                                  <button type="submit" class="upatebtn">update</button>
                                                 </div>
                                               
                                               </form>
@@ -98,16 +95,7 @@
   
        
 
-<footer class="footer">
-        <a href="#"><i class="fa fa-facebook-official fa-lg"></i></a>
-        <a href="#"><i class="fa fa-pinterest-p fa-lg"></i></a>
-        <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-        <a href="#"><i class="fa fa-flickr fa-lg"></i></a>
-        <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
-        <p >
-        Powered by <a href="#" target="_blank">Webmaster solution</a>
-        </p>
-                 
+ 
 
  <script src="js/scripts.js"></script>
       </html>
