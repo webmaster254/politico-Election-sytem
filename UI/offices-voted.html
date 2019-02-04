@@ -29,23 +29,37 @@
 <body>
                 <section id="profile-section">
                                 
-                             <div class="profile-part">
-                                        
-                               <div class="profile-sidebar">
-                                        <img src="avatar.png" class="avatar">
-                                   <h4><b>Admin Dashboard.</b></h4>
+                        <h1>Politico User Dashboard</h1>
+                        <h2>All Offices Voted</h2>
+                        <div class="profile-part">
                                    
-                                   <ul>
-                                       
-                                       <li><a href="#">political parties</a></li>
-                                       <li><a href="#">Government offices</a></li>
-                                       <li><a href="index.html">Log out</a></li>
-                       
-                                   </ul>
+                          <div class="profile-sidebar">
+                                   
+                              <h4><b>User Dashboard</b></h4>
+                              
+                              <ul>
+                                <div class="dropdown">
+                                  <li><button onclick="myFunction()" class="dropbtn" href="#">political parties<i class="fa fa-caret-down"></i></button></li>
+                                  
+                                  <div class="dropdown-content">
+                                           
+                                           <a href="view-party.html">view Political party</a>
+                                         </div>
+                                        
+                                         <div class="dropdown">
+                                                   <li><button onclick="myFunction()" class="dropbtn" href="#">Government Offices<i class="fa fa-caret-down"></i></button></li>
+                                                   
+                                                   <div class="dropdown-content">
+                                                            
+                                                            <a href="view-party.html">view office</a>
+                                                          </div>
+                                                          <a class="btnvote" href="vote-one.html">Vote</a>
+                                                          <a class="btnvote" href="profile.html">profile</a>
+                                                                  
+                              </ul>
                                 </div>
-                               
                                 <div class="profile-main-section">
-                                    
+                                    <form class="myform"></form>
                                         <div class="party-table">
                                                 <table>
                                                   <tr>
@@ -87,6 +101,9 @@
                                                 </table>
                                                 
                                             </div>
+                                        </form>
+                                        </div>
+                                           
        
   
        
