@@ -77,9 +77,8 @@ body{
   background-position: center;
   color: floralwhite;
  overflow: hidden;
-  height:450px;
-  
-<<<<<<< HEAD
+  height:450px;}
+ 
   .body-content { 
     width: 100%; 
   }
@@ -94,9 +93,9 @@ body{
     
     text-align: center;
     
-=======
+
   text-align: center;
->>>>>>> 0543edd305f92e5c57c1527908fc9f76259a8084
+
   
 
 }
