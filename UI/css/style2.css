@@ -5,16 +5,32 @@ body{
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
+    
 }
 
 .loginbox{
     
     width: 320px;
     height: 490px;
-    background:black;
+
+  
+  
+
+  
+
+  
+
+  
+  
+
+    background:#4CAF50;
+
+
+  
     color: #fff;
     top: 50%;
     left: 50%;
+    
     position: absolute;
     transform: translate(-50%,-50%);
     box-sizing: border-box;
@@ -22,6 +38,9 @@ body{
    
 }
 
+.loginbox a{
+    color: floralwhite;
+}
 .avatar{
     width: 100px;
     height: 100px;
@@ -53,7 +72,7 @@ h1{
 {
     border: none;
     border-bottom: 1px solid #fff;
-    background: transparent;
+    background: floralwhite;
     outline: none;
     height: 40px;
     color: #fff;
@@ -64,7 +83,7 @@ h1{
     border: none;
     outline: none;
     height: 40px;
-    background: #fb2525;
+    background: #512DA8;
     color: #fff;
     font-size: 18px;
     border-radius: 20px;
@@ -112,7 +131,9 @@ h1{
 {
     color: #ffc107;
 }
-
+.loginbox a{
+    color:floralwhite;
+}
 
 
 
