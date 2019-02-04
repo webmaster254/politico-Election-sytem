@@ -330,13 +330,10 @@ span.psw {
 
 
 
-
-
-
-
 .profile-sidebar button{
   width:200px;
 }
+
 
 
 .profile-main-section{
@@ -357,9 +354,15 @@ span.psw {
     font-weight: bold;
 
     background: floralwhite;
+
+   overflow:auto;
+    height:500px;
+ 
+
     display: flex;
     height:500px;
     overflow:auto;
+
 }
 .profile-body{
   padding: .5rem;
@@ -474,18 +477,44 @@ tr:nth-child(even) {
   background-color: #f2f2f2
 }
 
-
 td, th {
-  border-left: solid 1px black;
+  border: solid 1px black;
   } 
   tr {
     border-bottom: solid 1px black;
     } 
+
+
+    .myForm {
+      display: flex;
+      flex-direction: column;
+      background-color: beige;
+      border-radius: 3px;
+      padding: 1em;
+    }
+    .column {
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+    }
+    .column h2{
+      text-align: center;
+
+    }
+    header{
+      text-align: center;
+      background: #512DA8;
+      color: floralwhite;
+    }
+
+
+=======
     header{
       background: #512DA8;
       color: floralwhite;
       text-align: center;
     }
+
     .column {
       display: flex;
       flex-direction: column;
@@ -533,6 +562,7 @@ td, th {
   .dropdown a:hover {background-color: #f1f1f1}
   
   .show {display:block;}
+
 
 tr {
   border-bottom: solid 1px black;
@@ -975,6 +1005,9 @@ h1{
   }
 
 
+  
+
+
   }
 
   .card {
@@ -1030,5 +1063,6 @@ h1{
     }
 
   }
+
 
 
