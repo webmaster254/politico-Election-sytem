@@ -61,7 +61,7 @@
   }
   .row {  
     display: flex;
-    background: url(../img/background.jpg);
+    background:rgb(131, 111, 175);
     background-size: cover;
     background-position: center;
     color: floralwhite;
