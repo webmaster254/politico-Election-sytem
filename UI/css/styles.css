@@ -68,8 +68,13 @@ margin-bottom: 8px;
 .topnav .icon {
   display: none;
 }
+
+.user-avatar{
+  position: center;
+
 h2{
   text-align: center;
+
 }
 body{
   margin: 0;
@@ -78,6 +83,10 @@ body{
   background-size: cover;
   background-position: center;
   font-family: sans-serif;
+  display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  
 }
 
 .body-content { 
@@ -218,12 +227,27 @@ span.psw {
 
 .footer{
   background-color: #D1C4E9;
-  height:100%;
+  height:20vh;
   text-align: center;
   margin:0px auto;
   padding: 20px 0px 20px 0px;
   
 }
+footer{
+  height:20vh;
+  
+}
+.ballot{
+  background:#4CAF50;
+  width:100%
+}
+
+td, th {
+  border-left: solid 1px black;
+  } 
+  tr {
+    border-bottom: solid 1px black;
+    } 
 /* Centered text */
 .centered {
   position: absolute;
@@ -299,10 +323,11 @@ span.psw {
   justify-content: space-between;
 }
 .profile-sidebar{
-  width: 20rem;
+  width: 30rem;
   height: 400px;
   background-color: rgb(56, 14, 155);
   float: left;
+    
 }
 .profile-sidebar button{
   width:200px;
@@ -330,14 +355,17 @@ span.psw {
 
 
 
-.profile-sidebar button{
-  width:200px;
-}
+
+
+
 
 
 
 .profile-main-section{
-  width: 80rem;
+  width: 90rem;
+  overflow:auto;
+  
+  flex-direction: row;
     float: right;
 
     padding-top: 16px;
@@ -355,6 +383,12 @@ span.psw {
 
     background: floralwhite;
 
+    
+    
+  
+    min-height: 60vh;
+
+
    overflow:auto;
     height:500px;
  
@@ -362,6 +396,7 @@ span.psw {
     display: flex;
     height:500px;
     overflow:auto;
+
 
 }
 .profile-body{
@@ -508,7 +543,7 @@ td, th {
     }
 
 
-=======
+
     header{
       background: #512DA8;
       color: floralwhite;
@@ -688,6 +723,117 @@ tr{
   border-radius: 3px;
   padding: 1em;
 }
+
+p,
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
+}
+
+h2{
+  text-align: center;
+}
+
+
+.myForm {
+  display: flex;
+  flex-direction: column;
+  background-color: beige;
+  border-radius: 3px;
+  padding: 1em;
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+.input-group {
+   display: flex;
+}
+.input-group > label {
+  margin-right: 1em; 
+  padding: .5em 0;
+}
+
+.myForm select {
+  flex: 6; 
+  padding: .5em;
+  margin-bottom: 1em;
+}
+.myForm button {
+ padding: 1em; 
+  background: gray;
+  color: white;
+  border: 0;
+}
+.myForm fieldset {
+   border: 0; 
+}
+.selection{
+  display:block;
+}
+
+.myForm {
+  display: flex;
+  flex-direction: column;
+  background-color: beige;
+  border-radius: 3px;
+  padding: 1em;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+  }
+  .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+.dropdown {
+    position: relative;
+    display: block;
+}
+.dropdown li{
+  position: relative;
+  display: block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
 
 
 
@@ -1002,7 +1148,12 @@ h1{
   padding-top: 3px;
   margin-bottom: 8px;
 
+  
   }
+
+  
+
+  
 
 
 
@@ -1066,6 +1217,8 @@ h1{
     }
 
   }
+
+
 
 
 
